@@ -13,7 +13,7 @@ namespace PublicAPI.Controllers
         public IActionResult Get()
         {
             BasicInfoDto BasicIfo = new BasicInfoDto();
-            BasicIfo.GithubUrl = "https://github.com/jesyontop01/HNGPublicAPI";
+            BasicIfo.GithubUrl = "https://github.com/jesyontop01/PublicAPI";
             BasicIfo.Email = "jesyontop01@gmail.com";
             DateTime currentDate = DateTime.Now;
 
